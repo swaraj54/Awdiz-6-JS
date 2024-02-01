@@ -28,8 +28,8 @@ Number :
 console.log(1234 ,  typeof(1234))
 console.log('1234', typeof('1234'))
 
-console.log(1 + 1)
-console.log("1" + '1')
+console.log(1 + 1) // 2
+console.log("1" + '1') // 11
 
 // Boolean 
 // true , false 
@@ -85,7 +85,7 @@ console.log(kuchbhi)
 
 let kuchbhi = 1234;
 kuchbhi = 2345; // re-assign 
-let kuchbhi = 3455;
+let kuchbhi = 3455; // not possible
 console.log(kuchbhi)
 
 // var  - function scoped , hoisting is possible
@@ -97,14 +97,14 @@ console.log(kuchbhi)
 
 // hoisting  js behavior 
 
-// myname = 'awdiz'; // assigning
+myname = 'awdiz'; // assigning
 
-// console.log(myname) // log
+console.log(myname) // log
 
-// var myname; // declare
+var myname; // declare
 
-// myname = 'awdiz';
+myname = 'awdiz';
 
-// console.log(myname)
+console.log(myname)
 
 // const , let myname ;
