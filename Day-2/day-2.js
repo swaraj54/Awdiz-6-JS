@@ -8,10 +8,7 @@
 }
 console.log(myName)
 console.log(mySurname)
-
-// Datatypes
-// varibles 
-// Operators 
+ 
 
 // Comparision operator
 {/* < >  <= >= == === */}
