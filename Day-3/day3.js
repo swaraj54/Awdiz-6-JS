@@ -34,12 +34,16 @@ if(value1 > value2){
 // 3. Age  == 18 , LL
 // 4. Age limit < 18 , no L
 
-// var age = 90;
+var age = 90;
 
 if(age == 18){
     console.log("You are allowed for LL only.")
 } else if (age > 18){
-    console.log("You are allowed for L.")
+    if(age < 80){
+        console.log("You are allowed for L.")
+    } else {
+        console.log("Your age is greater than 80.")
+    }
 } else {
     console.log("You are not allowed for L.")
 }
