@@ -65,7 +65,7 @@ function Fact(value) {
     return ans;
 }
 
-var result = Fact(0)
+var result = Fact(1)
 console.log(result, "result")
 
 
@@ -97,7 +97,7 @@ for (var i = 0; i < students.length; i++) {
 
 
 
-var myname ;
+var myname  ;
 if(myname == undefined){
     myname = "awdiz"
     console.log(myname)
