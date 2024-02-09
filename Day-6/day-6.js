@@ -132,27 +132,34 @@
 //  1 + 3 
 //  ...
 
- 
-//  2 +  4, 56, 7, 8, 3, 2, 5, 7
-//  4 + 56, 7, 8, 3, 2, 5, 7
-//  56 + 7, 8, 3, 2, 5, 7
-//  7 + 8, 3, 2, 5, 7
+
+
 
 // Q Find addition of  two number from given array with target.
 
-var array = [1, 2, 4, 56, 7, 8, 3, 2, 5, 7];
-var target = 12
-
+// 1 0  + j = i + 1 = 1 2,4, 56, 7, 8, 3, 2, 5, 7
+//  2 i = 1 +  j = i + 1, 2,  4, 56, 7, 8, 3, 2, 5, 7
+//  4 i + j 56, 7, 8, 3, 2, 5, 7
+//  56 i + j 7, 8, 3, 2, 5, 7
+//  7 i + j 8, 3, 2, 5, 7
+//  8 i + j 3, 2, 5, 7
+//  3 i + j 2, 5, 7
+//  2 i + j 5, 7
+//  5 i + j 7
 // ans : 
 // 4 8
 // 5 7
+var array = [1, 2, 4, 56, 7, 8, 3, 2, 5, 7];
+var target = 12
 
 function FindTargetedValues(array, target) {
     for (var i = 0; i < array.length - 1; i++) {
-        // if (array[i] + array[i + 1] == target) {
-        //     console.log(array[i], array[i + 1])
-        // }
-        // wrrite your answer
+        for (var j = i + 1; j < array.length; j++) {
+            // console.log(array[i], array[j])
+            if(array[i] + array[j] == target){
+                console.log(array[i], array[j])
+            }
+        }
     }
 }
 FindTargetedValues(array, target)
