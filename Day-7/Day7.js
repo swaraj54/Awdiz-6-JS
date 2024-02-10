@@ -1,4 +1,4 @@
-var myName = "absaafsba"
+var myName = "absa a fsba"
 
 // console.log(myName[myName.length - 1])
 
