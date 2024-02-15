@@ -53,11 +53,11 @@ for (var i = 0; i < array.length; i++) {
 // Q Find count of unique numbers,  1 , 2,  3, 4, 5
 
 var array = [1, 2, 1, 3, 4, 5, 2, 3, 5, 1];
-var myAnswer = {}
+var myAnswer = { }
 
 for (var i = 0; i < array.length; i++) {
     // console.log(myAnswer[array[i]])
-    if (myAnswer[array[i]] === undefined) {
+    if (myAnswer[1] === undefined) {
         myAnswer[array[i]] = 1
     } else {
         myAnswer[array[i]]++

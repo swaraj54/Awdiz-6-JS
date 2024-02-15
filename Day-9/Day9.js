@@ -18,11 +18,11 @@
 // map foreach find findindex
 
 
-// setTimeout(() => {
-//     console.log("Excuted after 2000 msce.")
-//     console.log("Excuted after 2000 msce.")
-//     console.log("Excuted after 2000 msce.")
-// }, 5000);
+setTimeout(() => {
+    console.log("Excuted after 2000 msce.")
+    console.log("Excuted after 2000 msce.")
+    console.log("Excuted after 2000 msce.")
+}, 5000);
 
 // // function MyFunction() {
 
@@ -33,22 +33,22 @@
 //     return value1 * value2
 // }
 
-// const myInterval = setInterval(() => { console.log("Excuting after every 2 sec..") }, 2000)
+const myInterval = setInterval(() => { console.log("Excuting after every 2 sec..") }, 2000)
 
-// function StopInterval() {
-//     clearInterval(myInterval)
-// }
+function StopInterval() {
+    clearInterval(myInterval)
+}
 
-// setTimeout(StopInterval, 5000)
+setTimeout(StopInterval, 5000)
 
-
-// console.log("1")
-// setTimeout(() => { console.log("2") }, 3000)
-// console.log("3")
-// setTimeout(() => { console.log("4") }, 1000)
-// console.log("5")
-// setTimeout(() => { console.log("6") }, 5000)
-// console.log("7")
+// Event loop
+console.log("1")
+setTimeout(() => { console.log("2") }, 3000)
+console.log("3")
+setTimeout(() => { console.log("4") }, 1000)
+console.log("5")
+setTimeout(() => { console.log("6") }, 5000)
+console.log("7")
 
 // //event loop
 // console.log(1)
@@ -64,15 +64,15 @@
 
 // // Q Find number 5 indec from given array .
 
-// var array = [1, 2, 3, 4, 5, 6]
+var array = [1, 2, 3, 4, 5, 6]
 
-// // for(var i = 0; i < array.length; i++){
-// //     if(array[i] == 5){
-// //         console.log(i)
-// //     }
-// // }\
+// for(var i = 0; i < array.length; i++){
+//     if(array[i] == 5){
+//         console.log(i)
+//     }
+// }
 
-// const indec = array.findIndex((swaraj) => swaraj == 7)
+const indec = array.findIndex((swaraj) => swaraj == 2)
 
 // console.log(indec)
 
@@ -81,10 +81,10 @@
 
 
 
-// var array = [1, 8, 2, 3, 4, 5, 6]
+var array = [1, 8, 2, 3, 4, 5, 6]
 
-// const answer = array.find((number) => number > 5)
-// console.log(answer)
+const answer = array.find((number) => number > 5)
+console.log(answer)
 
 // // .map()
 // // .foreACH()
@@ -96,9 +96,9 @@
 
 
 
-// var array = [1, 8, 2, 3, 4, 5, 6]
-// const result = array.map((num) => num > 5)
-// console.log(result)
+var array = [1, 8, 2, 3, 4, 5, 6]
+const result = array.map((num) => num > 5)
+console.log(result)
 
 
 
@@ -109,10 +109,3 @@ array.forEach((number) => {
     }
 })
 
-krushna
-pooja 
-athrva 
-sajid 
-akash 
-shahbaj 
-kurnaraj

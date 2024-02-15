@@ -45,7 +45,7 @@ console.log('true', typeof ('true'))
 // let 
 // const 
 
-var instituteName = "Awdiz"
+var kucchbhi = "Awdiz"
 var age = 10
 var isOpen = true
 
@@ -97,6 +97,8 @@ console.log(kuchbhi)
 
 // hoisting  js behavior 
 
+
+
 myname = 'awdiz'; // assigning
 
 console.log(myname) // log
@@ -108,3 +110,5 @@ myname = 'awdiz';
 console.log(myname)
 
 // const , let myname ;
+
+
