@@ -59,7 +59,7 @@ console.log(array)
 
 const array = ['a', 'b', 'c', 'd', "e"]
 
-const ans = array.slice(2, 4);
+const ans = array.slice(2, 4); //'c', 'd'
 console.log(ans)
 // const ans = array.slice(1, 5);
 // console.log(ans)
@@ -71,7 +71,7 @@ console.log(ans)
 
 
 const array = ['a', 'b', 'c', 'd', 'e'];
-// array.splice(index, 0/1, value )
+// array.splice(index, 0/1/2, value )
 
 array.splice(1, 0, 'z')
 console.log(array)
@@ -81,6 +81,6 @@ console.log(array)
 
 var todos = ['comple assignmentts', 'eat lunch']
 
-todos.splice(1, 2)
+todos.splice(0, 1)
 console.log(todos)
 
