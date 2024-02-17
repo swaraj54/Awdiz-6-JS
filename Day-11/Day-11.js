@@ -21,50 +21,50 @@
 
 
 // we are taking it from frontend, <input type="text" />
-// var name = "Awdiz";
-// var age = 10;
+var name = "Awdiz";
+var age = 10;
 
 
-// console.log("Welcome", name)
-// console.log(`Welcome ${name} and your age ${age}`)
+console.log("Welcome", name)
+console.log(`Header ${name} and your age ${age}`)
 
 
 
-// var array1 = [1, 2, 3]
-// var array2 = [4, 5, 6]
+var array1 = [1, 2, 3]
+var array2 = [4, 5, 6]
 
-// const newArray = array1.concat(array2);
-// console.log(newArray)
+const newArray = array1.concat(array2);
+console.log(newArray)
 
-// var array = [1, 2, 3]
-// const isExist = array.includes(2);
-// console.log(isExist)
+var array = [1, 2, 3]
+const isExist = array.includes(2);
+console.log(isExist)
 
-// var array = ["cat", "dog"]
-// const isExist = array.includes("cat");
-// console.log(isExist)
-
-
-// var days = ["mon", "tb", "tz", "wed", "sat"];
-// console.log(days.sort())
-
-// var numbers = [1, 5, 200, 3, 2, 4]
-// console.log(numbers.sort())
-
-// var numbers = [1, 5, 200, 3, 2, 4]
-// console.log(numbers.sort((a, b) => a - b))
-// console.log(numbers.sort((a, b) => b - a))
-
-// var data = ["abc", "xyz", 'lmn']
-
-// console.log(data.join("-"))
-// console.log(data.join(" "))
-// console.log(data.join(""))
-// console.log(data.join())
+var array = ["cat", "dog"]
+const isExist = array.includes("cat");
+console.log(isExist)
 
 
-// var string = "Awdiz Institute Vashi"
-// console.log(string.split(" "))
+var days = ["mon", "tb", "tz", "wed", "sat"];
+console.log(days.sort())
+
+var numbers = [1, 5, 200, 3, 2, 4]
+console.log(numbers.sort())
+
+var numbers = [1, 5, 200, 3, 2, 4]
+console.log(numbers.sort((a, b) => a - b))
+console.log(numbers.sort((a, b) => b - a))
+
+var data = ["abc", "xyz", 'lmn']
+
+console.log(data.join("-"))
+console.log(data.join(" "))
+console.log(data.join(""))
+console.log(data.join())
+
+
+var string = "Awdiz Institute Vashi"
+console.log(string.split(" "))
 
 
 
