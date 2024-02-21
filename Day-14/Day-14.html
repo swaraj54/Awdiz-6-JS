@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+
+    // { name : "awdiz"}  -  javascript 
+    // {"name" : "awdiz"} -  json
+
+    // // to store data in Local storage  - localStorage.setItem(key, value)
+    localStorage.setItem("name", "awdiz")
+    localStorage.setItem("list", "[1,2,3,4]")
+
+    // // to retrive data from local storage  - localStorage.getItem(key)
+    const dataFromLS = localStorage.getItem("name")
+    console.log(dataFromLS, "dataFromLS")
+    const dataFromLS2 = localStorage.getItem("list")
+    console.log(dataFromLS2, "dataFromLS2")
+
+    // // to delete specific key value from localstorage use localStorage.removeItem(key)
+    localStorage.removeItem('list')
+
+    // to delete all data from ls
+    localStorage.clear()
+
+
+    // to convert js code into json use stringify
+    // to convert json code into js use parse
+    var myData = { name: "Awdiz" };
+    var jsonData = JSON.stringify(myData);
+    console.log(jsonData, "jsonData browser")
+    var jsData = JSON.parse(jsonData)
+    console.log(jsData, "jsData")
+
+
+
+
+    var myData = { name: "awdiz", email: "abc@gmail.com", password: "pass@123" };
+    localStorage.setItem("data", JSON.stringify(myData))
+
+    const mydata = JSON.parse(localStorage.getItem("data"));
+    console.log(mydata)
+    console.log(mydata?.name)
+</script>
+
+</html>

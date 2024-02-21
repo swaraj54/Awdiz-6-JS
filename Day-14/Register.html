@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <h1>Register :</h1>
+    <form onsubmit="Register(event)">
+        <label>Name : </label><br />
+        <input id="name" type="text" /><br />
+        <label>Email : </label><br />
+        <input id="email" type="email" /><br />
+        <label>Password : </label><br />
+        <input id="password" type="password" /><br />
+        <label>Confirm Password : </label><br />
+        <input id="confirmPassword" type="password" /><br />
+        <input type="submit" value="Register" />
+    </form>
+
+</body>
+
+<script>
+
+
+    function Register(event) {
+        event.preventDefault();
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirmPassword").value;
+        console.log(name, email, password, confirmPassword)
+    }
+</script>
+
+</html>
