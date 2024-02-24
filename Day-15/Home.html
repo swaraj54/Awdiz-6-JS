@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Home Page - <span id="name"></span></h1>
+
+</body>
+
+<script>
+    function getLoggedInUser() {
+        const data = JSON.parse(localStorage.getItem("currentUser"))
+        console.log(data, "data")
+        const span = document.getElementById("name");
+        span.innerText = data.name
+    }
+    getLoggedInUser()
+    // window.onload = getLoggedInUser()
+    // window.onload = function () {
+    //     const data = JSON.parse(localStorage.getItem("currentUser"))
+    //     console.log(data, "data")
+    //     const span = document.getElementById("name");
+    //     span.innerText = data.name
+    // }
+</script>
+
+</html>
